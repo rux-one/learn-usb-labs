@@ -1,0 +1,17 @@
+# captures (keep the folder, ignore recordings)
+captures/*.pcapng
+captures/*.pcap
+captures/*.json
+!captures/samples/
+
+# node / build
+web/node_modules/
+web/dist/
+
+# nix
+.direnv/
+result
+
+# editor / OS
+.DS_Store
+*.swp
